@@ -4,3 +4,6 @@
     * Scratchpad -- various temporary stuff.
     * look testing
     * docker run --name vimwiki -d -p 80:80 -v /var/data/vimwiki_html:/usr/share/nginx/html:ro -d nginx
+    * testing my script now!
+    * *deploying again
+
