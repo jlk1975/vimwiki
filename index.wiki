@@ -1,4 +1,4 @@
-= aMy knowledge base =
+= VIM is the best for real My knowledge base =
     * [[Tasks]] -- things to be done _yesterday_!!!
     * [[Project]] Gutenberg -- good books are power.
     * Scratchpad -- various temporary stuff.
@@ -6,4 +6,5 @@
     * docker run --name vimwiki -d -p 80:80 -v /var/data/vimwiki_html:/usr/share/nginx/html:ro -d nginx
     * testing my script now!
     * *deploying again
+    * new
 
