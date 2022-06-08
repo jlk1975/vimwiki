@@ -1,10 +1,12 @@
-= test8
-    * [[Tasks]] -- things to be done _yesterday_!!!
-    * [[Project]] Gutenberg -- good books are power.
-    * Scratchpad -- various temporary stuff.
-    * look testing
-    * docker run --name vimwiki -d -p 80:80 -v /var/data/vimwiki_html:/usr/share/nginx/html:ro -d nginx
-    * testing my script now!
-    * *deploying again
-    * new
-
+```console
+set nocompatible
+filetype plugin on
+syntax on
+set number
+set noswapfile
+set hlsearch
+set ignorecase
+set incsearch
+set shellcmdflag=-ic
+command PW call vimwiki#html#WikiAll2HTML(expand(vimwiki#vars#get_wikilocal('path_html')), <bang>0) | !git add . && git commit -m "wiki updates" && git push && rsync -avz -e "ssh -i ~/.ssh/resilio-lightsail-key.pem"  ~/vimwiki_html ec2-user@18.235.240.241:/var/data | exit
+```
