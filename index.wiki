@@ -1,4 +1,4 @@
-= test1 is the best for real My knowledge base =
+= SHIFT your ew and dw and pw alias commands into your vimrc file instead so you can call things like :dw and :pw right from within your files while editing them. test1 is the best for real My knowledge base =
     * [[Tasks]] -- things to be done _yesterday_!!!
     * [[Project]] Gutenberg -- good books are power.
     * Scratchpad -- various temporary stuff.
