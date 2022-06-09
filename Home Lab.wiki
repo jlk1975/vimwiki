@@ -1,4 +1,4 @@
-= Home Lab Elements =
+= Home Lab Elements: =
 * File Server for
 * 	Media
 * 	Pictures
