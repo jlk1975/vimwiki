@@ -9,6 +9,7 @@
 	* Home Videos
 	* Important Docs (Spreadsheets etc.)
 * Home Automation Server 
+* Ethical Hacking Playground (White Hat)
 == Automated Provisioning ==
 * Linux Laptop
 	* Taskwarrior Client 
