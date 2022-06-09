@@ -12,7 +12,8 @@
 * Ethical Hacking Playground (White Hat)
 == Automated Provisioning ==
 * Linux Laptop
-	* Taskwarrior Client 
+	* Taskwarrior Client
+* Server Provisioning
 == Automated Backups ==
 * Data Backups
 	* Task Warrior Server
