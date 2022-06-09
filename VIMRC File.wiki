@@ -1,5 +1,5 @@
 = Vim rc File: =
-```
+```bash
 set nocompatible
 filetype plugin on
 syntax on
