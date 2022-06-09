@@ -1,7 +1,6 @@
 = JKENDALL.DEV Wiki =
     * [[Home Lab]]
     * [[Useful Commands]] -- These can come in handy.
-    * [[Diary]]
     * [[diary/2022-06-09.wiki]]
     * 
     * Scratchpad -- various temporary stuff.
