@@ -1,11 +1,16 @@
 = Home Lab Elements: =
+* Taskwarrior Server (docker)
 * File Server
 	* Media
-* 	Pictures
-* 	Home Videos
-* 	Important Docs (Spreadsheets etc.)
-* 	Data Backups
-* Taskwarrior Server (docker)
-* Data To Backup
+	* Pictures
+	* Home Videos
+	* Important Docs (Spreadsheets etc.)
+* Automated Provisioning Capabilities
+	* Linux Laptop
+		*Taskwarrior Client
+		*What else?
+* Data Backups
+* Important Data 
 * 	Taskwarrior Server 
+* Home Automation Server
 	
