@@ -1,5 +1,6 @@
 = JKENDALL.DEV Wiki =
     * [[Home Lab]]
+    * [[VIMRC File]]
     * [[Useful Commands]] -- These can come in handy.
     * [[Wiki Examples]] 
     * 
