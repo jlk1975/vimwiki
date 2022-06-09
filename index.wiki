@@ -1,4 +1,4 @@
-= My knowledge base =
+= JKENDALL.DEV WIKI =
     * [[Home Lab]]
     * [[Useful Commands]] -- These can come in handy.
     * Scratchpad -- various temporary stuff.
