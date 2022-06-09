@@ -1,5 +1,5 @@
 = Vim rc File: =
-
+Note: See :h vimwiki for the full documentation
 set nocompatible
 filetype plugin on
 syntax on
