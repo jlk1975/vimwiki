@@ -1,6 +1,6 @@
 = Home Lab Elements: =
 * File Server
-* 	Media
+	* Media
 * 	Pictures
 * 	Home Videos
 * 	Important Docs (Spreadsheets etc.)
