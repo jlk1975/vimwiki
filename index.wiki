@@ -1,7 +1,7 @@
 = JKENDALL.DEV Wiki =
     * [[Home Lab]]
     * [[Useful Commands]] -- These can come in handy.
-    * [[diary/2022-06-09.wiki]]
+    * [[Wiki Examples]] 
     * 
     * Scratchpad -- various temporary stuff.
     * See :h vimwiki for the full documentation
