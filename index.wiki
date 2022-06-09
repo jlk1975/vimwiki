@@ -1,4 +1,4 @@
-= JKENDALL.DEV WIKI =
+= JKENDALL.DEV Wiki =
     * [[Home Lab]]
     * [[Useful Commands]] -- These can come in handy.
     * Scratchpad -- various temporary stuff.
