@@ -1,5 +1,5 @@
 = Vim rc File: =
-```bash
+
 set nocompatible
 filetype plugin on
 syntax on
@@ -10,4 +10,3 @@ set ignorecase
 set incsearch
 set shellcmdflag=-ic
 command PW call vimwiki#html#WikiAll2HTML(expand(vimwiki#vars#get_wikilocal('path_html')), <bang>0) | !git add . && git commit -m "wiki updates" && git push && rsync -avz -e "ssh -i ~/.ssh/resilio-lightsail-key.pem"  ~/vimwiki_html ec2-user@18.235.240.241:/var/data | exit
-```
