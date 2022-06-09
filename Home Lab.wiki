@@ -1,15 +1,22 @@
-= Home Lab Elements: =
+= Home Lab: =
+== Lab Components ==
+* Linux Laptop
 * Taskwarrior Server (docker)
+* Flex Media Server
 * File Server
 	* Media
 	* Pictures
 	* Home Videos
 	* Important Docs (Spreadsheets etc.)
-* Automated Provisioning Capabilities
-	* Linux Laptop
-		* Taskwarrior Client 
+* Home Automation Server 
+== Automated Provisioning ==
+* Linux Laptop
+	* Taskwarrior Client 
+== Automated Backups ==
 * Data Backups
-* Important Data 
-* 	Taskwarrior Server 
-* Home Automation Server
-	
+	* Task Warrior Server
+	* Home Automation Server (TBD)
+	* What other Servers?
+	* Linux Laptop
+		* Home Directory (all contents)
+		* What else?
