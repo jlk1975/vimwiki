@@ -7,6 +7,7 @@
 	* Important Docs (Spreadsheets etc.)
 * Automated Provisioning Capabilities
 	* Linux Laptop
+		*Taskwarrior Client 
 	*Taskwarrior Client
 	*What else?
 * Data Backups
