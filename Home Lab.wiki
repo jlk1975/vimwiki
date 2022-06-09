@@ -1,4 +1,4 @@
-= Home Lab =
+= JKENDALL.DEV Home Lab =
 == Components/ Features ==
 * Linux Laptop
 * Taskwarrior Server (docker)
