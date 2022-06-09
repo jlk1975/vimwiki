@@ -1,9 +1,8 @@
 = My knowledge base =
-    * [[Tasks]] -- things to be done _yesterday_!!!
-    * [[Project Gutenberg]] -- good books are power.
+    * [[Home Lab]]
+    * [[Useful Commands]] -- These can come in handy.
     * Scratchpad -- various temporary stuff.
     * See :h vimwiki for the full documentation
-= Header1 =
 == Header2 ==
 === Header3 ===
 
