@@ -1,5 +1,5 @@
 = Home Lab =
-== Lab Components ==
+== Components/ Features ==
 * Linux Laptop
 * Taskwarrior Server (docker)
 * Flex Media Server
