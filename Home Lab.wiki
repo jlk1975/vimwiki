@@ -1,0 +1,11 @@
+= Home Lab Elements
+* File Server for
+* 	Media
+* 	Pictures
+* 	Home Videos
+* 	Important Docs (Spreadsheets etc.)
+* 	Data Backups
+* Taskwarrior Server (docker)
+* Data To Backup
+* 	Taskwarrior Server 
+	
