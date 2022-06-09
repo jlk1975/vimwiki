@@ -1,2 +1,2 @@
-= Vim rc File =
+= Vim rc File: =
 
