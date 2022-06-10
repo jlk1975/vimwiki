@@ -1,7 +1,7 @@
 = JKENDALL.DEV Home Lab =
 == Components/ Features ==
 * Linux Laptop
-* Taskwarrior Server (docker)
+* Taskwarrior Server (Need to dockerize this)
 * Flex Media Server
 * File Server
 	* Media
@@ -10,6 +10,7 @@
 	* Important Docs (Spreadsheets etc.)
 * Home Automation Server 
 * Ethical Hacking Playground (White Hat)
+* Consider Hosting Wordpress on AWS Lightsail in Docker
 == Automated Provisioning ==
 * Linux Laptop
 	* Taskwarrior Client
