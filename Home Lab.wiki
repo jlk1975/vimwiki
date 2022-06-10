@@ -2,7 +2,8 @@
 == Components/ Features ==
 * Linux Laptop
 * Taskwarrior Server (Need to dockerize this)
-* Flex Media Server
+* Media Server
+	* Django photo albums https://github.com/richardbarran/django-photologue 
 * File Server
 	* Media
 	* Pictures
