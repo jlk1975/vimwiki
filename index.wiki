@@ -1,4 +1,4 @@
-= JKENDALL.DEV Wiki =
+= JKENDALL.DEV Wiki Pages =
     * [[Home Lab]]
     * [[VIMRC File]]
     * [[Useful Commands]]
