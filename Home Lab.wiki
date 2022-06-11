@@ -2,6 +2,8 @@
 == Components/ Features ==
 * Linux Laptop
 * Taskwarrior Server (Need to dockerize this)
+* nginx server for vimwiki (runs in docker)
+	* docker run --name vimwiki -v /home/ec2-user/nginx.conf:/etc/nginx/nginx.conf:ro -v /var/data/vimwiki_html:/usr/share/nginx/html:ro -d nginx 
 * Media Server
 	* Django photo albums https://github.com/richardbarran/django-photologue 
 * File Server
