@@ -17,6 +17,20 @@
 == Automated Provisioning ==
 * Linux Laptop
 	* *Use Ansible to automate as much of this as possible*
+	* Software List
+		* Manjaro Linux (or other linux distro you like) 
+		* AWS Cli
+		* Mutt for email
+		* Python3
+		* VS Code
+		* Discord
+		* Slack
+		* Thincast Remote Desktop Client
+		* Dolphin File Manager
+		* Chrome
+		* Kate (text editor)
+		* Okular document viewer
+		* Look at any software you call from your zshrc or zimrc file too.
 	* Taskwarrior Client
 * Server Provisioning
 == Automated Backups ==
