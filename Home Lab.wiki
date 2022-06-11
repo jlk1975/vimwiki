@@ -1,6 +1,6 @@
 = JKENDALL.DEV Home Lab =
 == Components/ Features ==
-* Linux Laptop/Workstation
+* Linux Laptop
 * Taskwarrior Server (Need to dockerize this)
 * Media Server
 	* Django photo albums https://github.com/richardbarran/django-photologue 
