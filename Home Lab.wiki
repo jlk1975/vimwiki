@@ -14,6 +14,7 @@
 * Consider Hosting Wordpress on AWS Lightsail in Docker
 == Automated Provisioning ==
 * Linux Laptop
+	* *Use Ansible to automate as much of this as possible*
 	* Taskwarrior Client
 * Server Provisioning
 == Automated Backups ==
