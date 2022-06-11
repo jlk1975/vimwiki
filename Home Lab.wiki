@@ -12,6 +12,8 @@
 * Home Automation Server 
 * Ethical Hacking Playground (White Hat)
 * Consider Hosting Wordpress on AWS Lightsail in Docker
+== Code Repositories ==
+* TBD, definitely need an Ansible repo .
 == Automated Provisioning ==
 * Linux Laptop
 	* *Use Ansible to automate as much of this as possible*
