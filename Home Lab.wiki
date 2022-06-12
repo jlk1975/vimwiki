@@ -1,6 +1,7 @@
 = JKENDALL.DEV Home Lab =
 == Components/ Features ==
 * Linux Laptop
+* whois
 * Taskwarrior Server (Need to dockerize this)
  
 | VimWiki Server                                                                                  | Notes                                   |
