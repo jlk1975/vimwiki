@@ -2,25 +2,33 @@
 == Components/ Features ==
 * Linux Laptop
 * Taskwarrior Server (Need to dockerize this)
-* VimWiki 
-| VimWiki Server                                                                                  | VimWiki Client |
-|-------------------------------------------------------------------------------------------------|----------------|
-| SSL certs setup, high level steps...                                                            | test           |
-| * Run openssl command to generate private key and CSR                                           |                |
-| * Submit CSR to cert authority like namecheap                                                   |                |
-| * Cert authority will have you prove that you own                                               |                |
-| * the domain that the CSR is for.                                                               |                |
-| * Once you prove you own the domain name, then the CSR                                          |                |
-| * should issue you all the signed cert files you need.                                          |                |
-| * In the case of NGINX, this comes down to 2 files that you need                                |                |
-| * to combine into a single .cert file and put it where NGINX can                                |                |
-| * find it, along with the private (.key) file that you generated.                               |                |
-| * HTTPS over both the plain domain name and www should both work                                |                |
-| * so long as you make an A record for the plain domain name (i.e. jkendall.dev)                 |                |
-| * and a CNAME for the www name (i.e. a cname for www.jkendall.dev that points to jkendall.dev). |                |
-|                                                                                                 |                |
+ 
+| VimWiki Server                                                                                  | Notes                                   |
+|-------------------------------------------------------------------------------------------------|-----------------------------------------|
+| SSL certs setup, high level steps...                                                            | Need to automated SSL certs generation. |
+| * Run openssl command to generate private key and CSR                                           |                                         |
+| * Submit CSR to cert authority like namecheap                                                   |                                         |
+| * Cert authority will have you prove that you own                                               |                                         |
+| * the domain that the CSR is for.                                                               |                                         |
+| * Once you prove you own the domain name, then the CSR                                          |                                         |
+| * should issue you all the signed cert files you need.                                          |                                         |
+| * In the case of NGINX, this comes down to 2 files that you need                                |                                         |
+| * to combine into a single .cert file and put it where NGINX can                                |                                         |
+| * find it, along with the private (.key) file that you generated.                               |                                         |
+| * HTTPS over both the plain domain name and www should both work                                |                                         |
+| * so long as you make an A record for the plain domain name (i.e. jkendall.dev)                 |                                         |
+| * and a CNAME for the www name (i.e. a cname for www.jkendall.dev that points to jkendall.dev). |                                         |
+| Docker:                                                                                         |                                         |
+|                                                                                                 |                                         |
+docker run --name wiki -d -p 443:443 -v /home/ec2-user/etc/nginx/conf.d/default.conf:/etc/nginx/conf.d/default.conf -v/home/ec2-user/etc/ssl/certs/jkendall_dev_chain.crt:/etc/nginx/conf.d/jkendall_dev_chain.crt -v /home/ec2-user/etc/ssl/private/jkendall_dev.key:/etc/nginx/conf.d/jkendall_dev.key -v /var/data/vimwiki_html:/usr/share/nginx/html:ro -d nginx 
 
-	* docker run --name wiki -d -p 443:443 -v /home/ec2-user/etc/nginx/conf.d/default.conf:/etc/nginx/conf.d/default.conf -v/home/ec2-user/etc/ssl/certs/jkendall_dev_chain.crt:/etc/nginx/conf.d/jkendall_dev_chain.crt -v /home/ec2-user/etc/ssl/private/jkendall_dev.key:/etc/nginx/conf.d/jkendall_dev.key -v /var/data/vimwiki_html:/usr/share/nginx/html:ro -d nginx 
+
+| VimWiki Client                                                                                  | Notes |
+|-------------------------------------------------------------------------------------------------|-------|
+| Add notes here about local VimWiki setup                                                        | Notes |
+|                                                                                                 |       |
+
+
 * Media Server
 	* Django photo albums https://github.com/richardbarran/django-photologue 
 * File Server
